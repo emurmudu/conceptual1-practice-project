@@ -28,3 +28,56 @@
     color: rgb(76, 0, 255);
     background-color: cyan;
 }
+.banner-img{
+    width: 350px;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid grey; */
+    background-image: url('./images/background.png'), linear-gradient(45deg, rgb(8,8,8), #333030);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading1{
+    font-size: 56px;
+    font-weight: bold;
+}
+.para1{
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    font-size: 20px;
+}
+.btn1{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: rgb(18, 8, 77);
+}
+.about-img{
+    width: 350px;
+}
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-title{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 56px;
+}
+.heading3{
+    font-size: 30px;
+    font-weight: bold;
+}
