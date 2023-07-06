@@ -1,0 +1,5 @@
+.Hero{
+    color: red;
+    /* cursor: pointer; */
+    cursor: url('icon/animation.gif'), auto;
+}
