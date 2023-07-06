@@ -1,5 +1,47 @@
 .Hero{
     color: red;
-    /* cursor: pointer; */
-    cursor: url('icon/animation.gif'), auto;
+    /* cursor: pointer;
+    cursor: url('icon/animation.gif'), auto; */
+}
+.father{
+    background-color:aqua;
+    height: 500px;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content:space-evenly;
+    /* justify-content:baseline; */
+    /* justify-content:first baseline; */
+    /* justify-content:flex-end; */
+    /* justify-content:safe; */
+    align-items: center;
+    /* align-items:end; */
+    /* align-items:start; */
+    /* align-items:normal; */
+    /* align-items:last baseline; */
+    /* align-items:self-start; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+}
+.child1 img{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+.child2 img{
+    background-color: green;
+    width: 220px;
+    height: 220px;
+    padding: 20px;
+    margin: 20px;
+}
+.child3 img{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin: 20px;
 }
